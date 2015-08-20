@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:51:18 +0000
+Source: qubes-gui-agent
+Binary: qubes-gui-agent
+Architecture: source amd64
+Version: 3.0.10+deb9u1
+Distribution: stretch
+Urgency: medium
+Maintainer: Davíð Steinn Geirsson <david@dsg.is>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description:
+ qubes-gui-agent - Makes X11 windows available to qubes dom0
+Changes:
+ qubes-gui-agent (3.0.10+deb9u1) stretch; urgency=medium
+ .
+   * Build for stretch
+Checksums-Sha1:
+ 0c2c49da8965adf83e40a15035aeece0b45d03b0 813 qubes-gui-agent_3.0.10+deb9u1.dsc
+ c5d64da849275fa4defeef676b3f1e82f5acda54 149572 qubes-gui-agent_3.0.10+deb9u1.tar.xz
+ a0c3b159b9d3a748f47ec708e939350b0bd1c620 45242 qubes-gui-agent_3.0.10+deb9u1_amd64.deb
+Checksums-Sha256:
+ 62ad8f8d27d4d30660ad9e81be5c3211e782ee8d8ce2458188ac1b93e0b54204 813 qubes-gui-agent_3.0.10+deb9u1.dsc
+ eb6a90deb96317ba215b4125c52c74656fd33c1c789f1f8e20138fa02e19e850 149572 qubes-gui-agent_3.0.10+deb9u1.tar.xz
+ d0ba05e6be0e95b57c24a899a5db2f01f2ef3b17b86753da6be60fb4864c84ba 45242 qubes-gui-agent_3.0.10+deb9u1_amd64.deb
+Files:
+ e5aa2f3c6b1b7781b971083b97028f17 813 admin extra qubes-gui-agent_3.0.10+deb9u1.dsc
+ f0e5eab213a9fef3bdd379003103f2b8 149572 admin extra qubes-gui-agent_3.0.10+deb9u1.tar.xz
+ 4fd35926f95e309b25213e90820f716f 45242 admin extra qubes-gui-agent_3.0.10+deb9u1_amd64.deb

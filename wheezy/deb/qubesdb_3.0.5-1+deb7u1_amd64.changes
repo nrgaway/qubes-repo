@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:44:09 +0000
+Source: qubesdb
+Binary: qubesdb qubesdb-vm libqubesdb qubesdb-dev
+Architecture: source amd64
+Version: 3.0.5-1+deb7u1
+Distribution: wheezy
+Urgency: low
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description: 
+ libqubesdb - QubesDB libs.
+ qubesdb    - QubesDB management tools and daemon.
+ qubesdb-dev - QubesDB client header files.
+ qubesdb-vm - QubesDB VM service.
+Changes: 
+ qubesdb (3.0.5-1+deb7u1) wheezy; urgency=low
+ .
+   * Build for wheezy
+Checksums-Sha1: 
+ b1439ee953bea469b6aedc7fce3f41cde7cda8dc 1064 qubesdb_3.0.5-1+deb7u1.dsc
+ a74b3267d9b8955ed7659a40d9d1f034123b54b6 34557 qubesdb_3.0.5.orig.tar.gz
+ 1c3cdd0925445115c132874213c69b6a86c5b814 3722 qubesdb_3.0.5-1+deb7u1.debian.tar.gz
+ b483355f1d84a0f71ca1dda4eebf38bf95669a33 19580 qubesdb_3.0.5-1+deb7u1_amd64.deb
+ 65e317ed9cd530119858c1c18766ff2805af79bd 4330 qubesdb-vm_3.0.5-1+deb7u1_amd64.deb
+ c4a28edb9f65973da158e38fd1e605074ed8267a 13492 libqubesdb_3.0.5-1+deb7u1_amd64.deb
+ d5d892f2889cb3b160d801e222d9146e2393f77e 6714 qubesdb-dev_3.0.5-1+deb7u1_amd64.deb
+Checksums-Sha256: 
+ 327016687ba08f05a107bd65adb884cea24c1c6b81d87242a1c8b66a4978387c 1064 qubesdb_3.0.5-1+deb7u1.dsc
+ b7074749f38ade87b6f8ded3321d54e97ef9e12013a70eb4cf009997d084af74 34557 qubesdb_3.0.5.orig.tar.gz
+ 89266b4f33e8c5885349b4928c82cf1b4068b01da176ef73c716123d2a181edf 3722 qubesdb_3.0.5-1+deb7u1.debian.tar.gz
+ bc5a92060eb4486743ff18bee98bc665e550c23a74ebc48ad4ecaee87784ebd6 19580 qubesdb_3.0.5-1+deb7u1_amd64.deb
+ ee752b185634e44b38e860ee01fa036f2ca63151b26dc7b7526aaeb539057de0 4330 qubesdb-vm_3.0.5-1+deb7u1_amd64.deb
+ dc47f903e0718bf20a5df797d3b101243027d9bfb0f2b2d40fba6ba6d6877847 13492 libqubesdb_3.0.5-1+deb7u1_amd64.deb
+ 0e6c7fc3daa1dd8c97f4ccf0ff243f210c49cb92040be9c72d299f8bd8aeacb1 6714 qubesdb-dev_3.0.5-1+deb7u1_amd64.deb
+Files: 
+ 735ba3f8d89176814fad934411e3c8d8 1064 admin extra qubesdb_3.0.5-1+deb7u1.dsc
+ edfdbaadfcb2e42093ea5fffd42e53ad 34557 admin extra qubesdb_3.0.5.orig.tar.gz
+ 39e56be9429c7a5f2e179362d7333813 3722 admin extra qubesdb_3.0.5-1+deb7u1.debian.tar.gz
+ ef871308faf3fa9c7c0e88064184dd26 19580 admin extra qubesdb_3.0.5-1+deb7u1_amd64.deb
+ c802a22629d505d074f184344bf56005 4330 admin extra qubesdb-vm_3.0.5-1+deb7u1_amd64.deb
+ 193ff06ae672c08f16cd471300e62b05 13492 libs extra libqubesdb_3.0.5-1+deb7u1_amd64.deb
+ 53f716efe99686bbeb06f96eb8085f9f 6714 libdevel extra qubesdb-dev_3.0.5-1+deb7u1_amd64.deb

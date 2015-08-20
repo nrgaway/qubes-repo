@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:45:09 +0000
+Source: qubes-utils
+Binary: qubes-utils
+Architecture: source amd64
+Version: 3.0.10+deb9u1
+Distribution: stretch
+Urgency: medium
+Maintainer: Davíð Steinn Geirsson <david@dsg.is>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description:
+ qubes-utils - Qubes Linux utilities
+Changes:
+ qubes-utils (3.0.10+deb9u1) stretch; urgency=medium
+ .
+   * Build for stretch
+Checksums-Sha1:
+ 8e992b48084ed5188d326166102ccfc05f008bfe 710 qubes-utils_3.0.10+deb9u1.dsc
+ f576883211b72b5ee9bbadd0a39d219f523f20e9 26080 qubes-utils_3.0.10+deb9u1.tar.xz
+ c0d2f51d75e3fafb9f700d8eb65c8075adeda3a1 25804 qubes-utils_3.0.10+deb9u1_amd64.deb
+Checksums-Sha256:
+ b1a3b1e4484758b1920dd20088954780c5d405d339d4ce69745e884e52235063 710 qubes-utils_3.0.10+deb9u1.dsc
+ eb1163022ffc2c0375c91c3e6857e5865495f9bf2a4799d281d4f81b801f05da 26080 qubes-utils_3.0.10+deb9u1.tar.xz
+ 4b2bfaac6d7fefa15cad9f9ca916d765972f0d46837b6732f3ca6834e35c33b6 25804 qubes-utils_3.0.10+deb9u1_amd64.deb
+Files:
+ 444e56d0c68f34a833304ac42bd965e7 710 admin extra qubes-utils_3.0.10+deb9u1.dsc
+ 8e4152a79b24414f00ac244d2ee6d492 26080 admin extra qubes-utils_3.0.10+deb9u1.tar.xz
+ 26ef7c453c52d523ba6e3c135484e0df 25804 admin extra qubes-utils_3.0.10+deb9u1_amd64.deb

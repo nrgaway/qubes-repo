@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:53:15 +0000
+Source: qubes-gpg-split
+Binary: qubes-gpg-split
+Architecture: source amd64
+Version: 2.0.11-1+deb7u1
+Distribution: wheezy
+Urgency: low
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description: 
+ qubes-gpg-split - The Qubes service for secure gpg separation
+Changes: 
+ qubes-gpg-split (2.0.11-1+deb7u1) wheezy; urgency=low
+ .
+   * Build for wheezy
+Checksums-Sha1: 
+ dc6dfce8a677927cd264f9b94261c1eb12423705 910 qubes-gpg-split_2.0.11-1+deb7u1.dsc
+ 919ac0f6836b5010b245bd21624b16f5c5dcbb7e 12013 qubes-gpg-split_2.0.11.orig.tar.gz
+ 74459961b5114a4123713c2537c2dcc96f269e5e 2000 qubes-gpg-split_2.0.11-1+deb7u1.debian.tar.gz
+ 2d7c5dcaea6806d17e765472c0842872e40704e4 20408 qubes-gpg-split_2.0.11-1+deb7u1_amd64.deb
+Checksums-Sha256: 
+ 9645684bf645439cda27a53549d554f574e0fbaa4a91be7b2a663a75e2b2c048 910 qubes-gpg-split_2.0.11-1+deb7u1.dsc
+ ba1d7d0e8a2344e733cba22e4ea54a1de6c910d58d3962e28e45db0a9dd33883 12013 qubes-gpg-split_2.0.11.orig.tar.gz
+ 3e870f428076f83f71fe9bf34f613c8dcf9727f70922a4590884fd71a9109045 2000 qubes-gpg-split_2.0.11-1+deb7u1.debian.tar.gz
+ e0c4a0fdd7a054a9d7cbb672b273d94d91809c1006300ab4a59872cececb915c 20408 qubes-gpg-split_2.0.11-1+deb7u1_amd64.deb
+Files: 
+ f5e7dc282a09181c4806c0f6d6dc9651 910 admin extra qubes-gpg-split_2.0.11-1+deb7u1.dsc
+ 4a37c720d287ca4179142695788f7f9d 12013 admin extra qubes-gpg-split_2.0.11.orig.tar.gz
+ a09d235e84bc373b6806aeb93d343541 2000 admin extra qubes-gpg-split_2.0.11-1+deb7u1.debian.tar.gz
+ 935c6204db26c9fa4d551ffa2db3b448 20408 admin extra qubes-gpg-split_2.0.11-1+deb7u1_amd64.deb

@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:41:57 +0000
+Source: libvchan-xen
+Binary: libvchan-xen libvchan-xen-dev
+Architecture: source amd64
+Version: 3.0.8-1+deb9u1
+Distribution: stretch
+Urgency: medium
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description:
+ libvchan-xen - Qubes Xen core libraries
+ libvchan-xen-dev - Developement files for Qubes libvchan communication library.
+Changes:
+ libvchan-xen (3.0.8-1+deb9u1) stretch; urgency=medium
+ .
+   * Build for stretch
+Checksums-Sha1:
+ 558c55eb56ccb0fbe74be65f73624381ac77b875 952 libvchan-xen_3.0.8-1+deb9u1.dsc
+ 5776a443063732d9e67bbe1d5158f76af2852491 15982 libvchan-xen_3.0.8.orig.tar.gz
+ 0df575638326e27529fc222324b94be74116128a 4204 libvchan-xen_3.0.8-1+deb9u1.debian.tar.xz
+ 3f9bf974e4a2f6f67f97728351d958eb4da9ba04 4526 libvchan-xen-dev_3.0.8-1+deb9u1_amd64.deb
+ c61f07a38586dd3e024c930e33d1c6e2a3ca58e4 8126 libvchan-xen_3.0.8-1+deb9u1_amd64.deb
+Checksums-Sha256:
+ 886082b4c9938531018d48438e4cd30767c661bde53569091eae7de0a14b6470 952 libvchan-xen_3.0.8-1+deb9u1.dsc
+ 14b146cd5bb7383792e0cee9fc3ef56506f29c9102386c806f04209c1dd17793 15982 libvchan-xen_3.0.8.orig.tar.gz
+ e6c041cdfd5b96adfe8982e8f7958de4be6476cb7ca1b1169b363d25497023dd 4204 libvchan-xen_3.0.8-1+deb9u1.debian.tar.xz
+ 9f6d643883181575e97fcf348a8a7f65cbd88bfb949c04222fd459410a01a793 4526 libvchan-xen-dev_3.0.8-1+deb9u1_amd64.deb
+ 705915941ead75e2b4afe84c3071d21a013a111feea4440acc9b83db7241d67a 8126 libvchan-xen_3.0.8-1+deb9u1_amd64.deb
+Files:
+ ae9201b301a8b80abc011ade5bbb59bc 952 libs extra libvchan-xen_3.0.8-1+deb9u1.dsc
+ fe30bc3731c7c3325b9d98a9859c1845 15982 libs extra libvchan-xen_3.0.8.orig.tar.gz
+ a2eed63698c76f1e830cb51dfec803aa 4204 libs extra libvchan-xen_3.0.8-1+deb9u1.debian.tar.xz
+ 30b771eda2737970690de747a16d805d 4526 libdevel extra libvchan-xen-dev_3.0.8-1+deb9u1_amd64.deb
+ 61e8d10de30778e11da468a3b6507be7 8126 libs extra libvchan-xen_3.0.8-1+deb9u1_amd64.deb

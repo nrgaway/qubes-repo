@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:18:24 +0000
+Source: xen
+Binary: libxen-4.4 libxenstore3.0 libxen-dev xenstore-utils xen-utils-common
+Architecture: source amd64 all
+Version: 2001:4.4.2-6+deb8u1
+Distribution: jessie
+Urgency: medium
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description:
+ libxen-4.4 - Libraries for Xen tools
+ libxen-dev - Development libraries for Xen tools
+ libxenstore3.0 - Xenstore communications library for Xen
+ xen-utils-common - Xen administrative tools - common files
+ xenstore-utils - Xenstore command line utilities for Xen
+Changes:
+ xen (2001:4.4.2-6+deb8u1) jessie; urgency=medium
+ .
+   * Build for jessie
+Checksums-Sha1:
+ fd56e486a278ff32c327c2f0fe349b47f8013d20 1524 xen_4.4.2-6+deb8u1.dsc
+ 8b8f9eaa9c71a53e2231e7b4de5f780494d5c864 18295195 xen_4.4.2.orig.tar.gz
+ dada48e3ed7f9e0a46fe2ee5a0926ff63208ea54 13236 xen_4.4.2-6+deb8u1.debian.tar.xz
+ 67d5643cbdde6f03d6b2632e9d792a53135c3d80 113208 libxen-4.4_4.4.2-6+deb8u1_amd64.deb
+ 0e07153f27514c1f8f08c5f82de575d251cf0c82 17394 libxenstore3.0_4.4.2-6+deb8u1_amd64.deb
+ e1de1d2c8d1cb3a0bc73ec8d6397c509be149324 245392 libxen-dev_4.4.2-6+deb8u1_amd64.deb
+ daeeedb49c616c23ec32dc5a16443c533aed7ba2 14360 xenstore-utils_4.4.2-6+deb8u1_amd64.deb
+ 5ad5533a08a882b453d196a0f3740cd41104a34a 389632 xen-utils-common_4.4.2-6+deb8u1_all.deb
+Checksums-Sha256:
+ 6680c8e14371a9f56181e85e9ff61eae1ecdb878d83ba74e7c42a73ae8edc144 1524 xen_4.4.2-6+deb8u1.dsc
+ 6fcd767227c9fef20de96e7e462434e456a8154be4706bca4e302410467228a7 18295195 xen_4.4.2.orig.tar.gz
+ 77b9a22f7b5e54e0636fca31851720ede032c8dd8db87c102ad03dd66974b972 13236 xen_4.4.2-6+deb8u1.debian.tar.xz
+ c484ea9b1a4025c37de43d3f28b085faddb8a8563f89219331e7b512d80dcb1e 113208 libxen-4.4_4.4.2-6+deb8u1_amd64.deb
+ 232504b2da5ee5c3fbbcc8a30bf62ee9c287d42e7c6d3a2d8dbb1630cb15cebd 17394 libxenstore3.0_4.4.2-6+deb8u1_amd64.deb
+ 6733d526a25b9530c40e2e70c96d1d3cef7729d9f5542ef4041dcfe37a6995c3 245392 libxen-dev_4.4.2-6+deb8u1_amd64.deb
+ 9acc37824c4faf9e2259a8bd5fde07334d08ccf66f7d2b7e52fba3b982967472 14360 xenstore-utils_4.4.2-6+deb8u1_amd64.deb
+ 9e345e754c9f4fa7ddb8aa85ecfd580b6c6db14182ee4b110863a159b08da552 389632 xen-utils-common_4.4.2-6+deb8u1_all.deb
+Files:
+ a10abc531edfc9973df5edf909da389f 1524 kernel optional xen_4.4.2-6+deb8u1.dsc
+ 29c6526a4ae5ede227bcce988c4b7986 18295195 kernel optional xen_4.4.2.orig.tar.gz
+ 951e0136c115c128ef78481beff0ecc2 13236 kernel optional xen_4.4.2-6+deb8u1.debian.tar.xz
+ 50fecbbf9524ce25215c449821cab88f 113208 libs optional libxen-4.4_4.4.2-6+deb8u1_amd64.deb
+ b55aec4dbcd5a412369ae9732d7481c9 17394 libs optional libxenstore3.0_4.4.2-6+deb8u1_amd64.deb
+ dcdf31ee682abe983edb1d5b7c26f1fe 245392 libdevel optional libxen-dev_4.4.2-6+deb8u1_amd64.deb
+ 46f6020caaf54548fb01ff538be56565 14360 admin optional xenstore-utils_4.4.2-6+deb8u1_amd64.deb
+ d352cf508593afcfc28d9528089de8a2 389632 kernel optional xen-utils-common_4.4.2-6+deb8u1_all.deb

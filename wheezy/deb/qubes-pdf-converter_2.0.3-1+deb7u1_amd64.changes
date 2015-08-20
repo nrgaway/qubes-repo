@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:56:14 +0000
+Source: qubes-pdf-converter
+Binary: qubes-pdf-converter
+Architecture: source amd64
+Version: 2.0.3-1+deb7u1
+Distribution: wheezy
+Urgency: low
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description: 
+ qubes-pdf-converter - The Qubes service for converting untrusted PDF files into trusted
+Changes: 
+ qubes-pdf-converter (2.0.3-1+deb7u1) wheezy; urgency=low
+ .
+   * Build for wheezy
+Checksums-Sha1: 
+ bbea62dbe158cbec24d4835901dbde635bb32e90 990 qubes-pdf-converter_2.0.3-1+deb7u1.dsc
+ cad90d530c4b62a65b554692ce045ee60e93a069 5415 qubes-pdf-converter_2.0.3.orig.tar.gz
+ 2be371dd54eb5b2763c64280b85811b35f23352c 1883 qubes-pdf-converter_2.0.3-1+deb7u1.debian.tar.gz
+ 9d5decc566c9c1f3bb6e5038c8b0779e2a25fccf 5786 qubes-pdf-converter_2.0.3-1+deb7u1_amd64.deb
+Checksums-Sha256: 
+ d8f839ed6d5b28ea4940d14fdeb77e9d02f7ec12f9372e0d6966b7fe38777877 990 qubes-pdf-converter_2.0.3-1+deb7u1.dsc
+ ae96a4ef55dea4db56c867b01c3f35d85a7d85ff30d40e11e0da8e0a7c415206 5415 qubes-pdf-converter_2.0.3.orig.tar.gz
+ 22d893510abc6bc190093e16041875c89821c0e1695c12eea5748fda7858b0f9 1883 qubes-pdf-converter_2.0.3-1+deb7u1.debian.tar.gz
+ 5e18dbeeddc981e550827cd2ac6d42b5fbfb17a6bbbe668c3a9a9ecce3de4bc3 5786 qubes-pdf-converter_2.0.3-1+deb7u1_amd64.deb
+Files: 
+ a0b90a64fcdb4b1c779a3b4ad5cae345 990 admin extra qubes-pdf-converter_2.0.3-1+deb7u1.dsc
+ 836e5ced1e633654bc2f845d7a6e6e08 5415 admin extra qubes-pdf-converter_2.0.3.orig.tar.gz
+ 0ab8aef749aee90657a2eaf4e9a8aef3 1883 admin extra qubes-pdf-converter_2.0.3-1+deb7u1.debian.tar.gz
+ 3b3b5988ffe6d8520a670750d086b5a1 5786 admin extra qubes-pdf-converter_2.0.3-1+deb7u1_amd64.deb

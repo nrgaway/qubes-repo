@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:51:51 +0000
+Source: qubes-gui-agent
+Binary: qubes-gui-agent
+Architecture: source amd64
+Version: 3.0.10+deb7u1
+Distribution: wheezy
+Urgency: low
+Maintainer: Davíð Steinn Geirsson <david@dsg.is>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description: 
+ qubes-gui-agent - Makes X11 windows available to qubes dom0
+Changes: 
+ qubes-gui-agent (3.0.10+deb7u1) wheezy; urgency=low
+ .
+   * Build for wheezy
+Checksums-Sha1: 
+ bdaa9836a506bfcb96a367c4645ef4c3b2dd1585 808 qubes-gui-agent_3.0.10+deb7u1.dsc
+ 9c7bed41750d517e38bd6e24a6fa5decaddcd80a 819728 qubes-gui-agent_3.0.10+deb7u1.tar.gz
+ 5c6c073b3ad207f5a77f45a70e49bc483411efaa 56694 qubes-gui-agent_3.0.10+deb7u1_amd64.deb
+Checksums-Sha256: 
+ a782c0e5b6fdbd177a5013e0329f59c794894256d1554c550019e4126dbbf77a 808 qubes-gui-agent_3.0.10+deb7u1.dsc
+ d92ffab75fe2199c91bf82d19d1a86dd93b261de23b0217beb0cbb0f3757c98d 819728 qubes-gui-agent_3.0.10+deb7u1.tar.gz
+ 7727ff4f41d4008f41526ac90a86a590fbb2c5cbff76642c5f52f18d5fa26c71 56694 qubes-gui-agent_3.0.10+deb7u1_amd64.deb
+Files: 
+ ee8004a8f625bf483dec853f1c65cf98 808 admin extra qubes-gui-agent_3.0.10+deb7u1.dsc
+ 3b499d3dc40cc43f49ab7ed4e56a1564 819728 admin extra qubes-gui-agent_3.0.10+deb7u1.tar.gz
+ f25efeea4dd8c53bdd3d88a422b5a9d0 56694 admin extra qubes-gui-agent_3.0.10+deb7u1_amd64.deb

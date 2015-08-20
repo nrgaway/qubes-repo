@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:50:44 +0000
+Source: qubes-gui-agent
+Binary: qubes-gui-agent
+Architecture: source amd64
+Version: 3.0.10+deb8u1
+Distribution: jessie
+Urgency: medium
+Maintainer: Davíð Steinn Geirsson <david@dsg.is>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description:
+ qubes-gui-agent - Makes X11 windows available to qubes dom0
+Changes:
+ qubes-gui-agent (3.0.10+deb8u1) jessie; urgency=medium
+ .
+   * Build for jessie
+Checksums-Sha1:
+ 5e1676fec3c5595f1ceac7ef5740489051e6761a 813 qubes-gui-agent_3.0.10+deb8u1.dsc
+ 2be881797a9984e1bb886460e16134a3df51d9d6 149580 qubes-gui-agent_3.0.10+deb8u1.tar.xz
+ 6d5022b1739d04c9412316a2c89bfd96bb8bd07f 45514 qubes-gui-agent_3.0.10+deb8u1_amd64.deb
+Checksums-Sha256:
+ c61fabd0fa710842aa80917224ed22b06f430328a852caa7cc017a1dd94ce0c1 813 qubes-gui-agent_3.0.10+deb8u1.dsc
+ 4312f2f7f6de052106c3b386ec6a6b5cc805f30e923239cde3061af8c4b4145c 149580 qubes-gui-agent_3.0.10+deb8u1.tar.xz
+ c6a1ece3a9283ba609a8184c16afff0177d635bdea3efdf6a51c22c8f44a53b8 45514 qubes-gui-agent_3.0.10+deb8u1_amd64.deb
+Files:
+ 281430c2649991ff0a8af8db6082a361 813 admin extra qubes-gui-agent_3.0.10+deb8u1.dsc
+ 0aedb45f3c8b3aaf85090f97b8a19a76 149580 admin extra qubes-gui-agent_3.0.10+deb8u1.tar.xz
+ 68c32c75634d85cd952c8ca67e3193a2 45514 admin extra qubes-gui-agent_3.0.10+deb8u1_amd64.deb

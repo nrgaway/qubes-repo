@@ -1,0 +1,8 @@
+Label: Qubes builder repo
+Suite: jessie
+Codename: jessie
+Date: Wed, 19 Aug 2015 19:55:56 -0400
+Architectures: amd64
+Components: main
+SHA1:
+ 7513fbdb29eef323e5edd7055a2a09b155898937 12392 main/binary-amd64/Packages

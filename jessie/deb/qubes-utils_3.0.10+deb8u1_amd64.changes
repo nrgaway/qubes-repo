@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:44:57 +0000
+Source: qubes-utils
+Binary: qubes-utils
+Architecture: source amd64
+Version: 3.0.10+deb8u1
+Distribution: jessie
+Urgency: medium
+Maintainer: Davíð Steinn Geirsson <david@dsg.is>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description:
+ qubes-utils - Qubes Linux utilities
+Changes:
+ qubes-utils (3.0.10+deb8u1) jessie; urgency=medium
+ .
+   * Build for jessie
+Checksums-Sha1:
+ ada86ebd16667aeed62e9e5c28f95c337ec9ceb1 710 qubes-utils_3.0.10+deb8u1.dsc
+ e3a8638475ad7cc6f598ba852ebc3b9a3cab2284 26064 qubes-utils_3.0.10+deb8u1.tar.xz
+ 3e62d497f1658e8c1ce9a3a818d58ac82e6211ab 25976 qubes-utils_3.0.10+deb8u1_amd64.deb
+Checksums-Sha256:
+ 8d3a563686442e089e8f74e0e3fa05f39d8ba0caa30469dccbb98628b36c8282 710 qubes-utils_3.0.10+deb8u1.dsc
+ c57c759cdd9038053968ac4e230f5e896f99c3ae53bd67e6448b37c6df113136 26064 qubes-utils_3.0.10+deb8u1.tar.xz
+ e65c6963a977408979fec860eaf3a22bd59d022e7ebe4e3285322ce77723b4ae 25976 qubes-utils_3.0.10+deb8u1_amd64.deb
+Files:
+ 70f98fc421fac9ce00382eb24e53cc35 710 admin extra qubes-utils_3.0.10+deb8u1.dsc
+ ef87f206b0267a8d9a6bfd8b222276c8 26064 admin extra qubes-utils_3.0.10+deb8u1.tar.xz
+ cfc265d1257a836cda10300d9b732430 25976 admin extra qubes-utils_3.0.10+deb8u1_amd64.deb

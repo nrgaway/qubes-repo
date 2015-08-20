@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:56:08 +0000
+Source: qubes-pdf-converter
+Binary: qubes-pdf-converter
+Architecture: source amd64
+Version: 2.0.3-1+deb9u1
+Distribution: stretch
+Urgency: medium
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description:
+ qubes-pdf-converter - The Qubes service for converting untrusted PDF files into trusted
+Changes:
+ qubes-pdf-converter (2.0.3-1+deb9u1) stretch; urgency=medium
+ .
+   * Build for stretch
+Checksums-Sha1:
+ 1c25f12a7ec58fcdd9aa7129a60bf5efd93f0714 995 qubes-pdf-converter_2.0.3-1+deb9u1.dsc
+ 256fe30b480d401df57b46c14a13da6a76ac538c 5415 qubes-pdf-converter_2.0.3.orig.tar.gz
+ 8943b1d2b4589b8edac55dc6336628b9739d152c 1884 qubes-pdf-converter_2.0.3-1+deb9u1.debian.tar.xz
+ 0b924a9a43bb6f04b639e2075466c62254ff20f0 5510 qubes-pdf-converter_2.0.3-1+deb9u1_amd64.deb
+Checksums-Sha256:
+ b1bca457b0b535cd1318fea0f080224b2c635fdbf87a8c6d6792898be67fc389 995 qubes-pdf-converter_2.0.3-1+deb9u1.dsc
+ ed9cf048659e59e54d6f812eb3f4c580968557f14a92c6d9439baaa480c3897a 5415 qubes-pdf-converter_2.0.3.orig.tar.gz
+ 43fc945a198ca668d0eb0f9465d6b6537b115e208b3d1ef4f5819cb55c03a802 1884 qubes-pdf-converter_2.0.3-1+deb9u1.debian.tar.xz
+ 66b02e71b86946883133d39c3b07d00a510d4dc94e0fdac4c3bc19d26433e735 5510 qubes-pdf-converter_2.0.3-1+deb9u1_amd64.deb
+Files:
+ 3c8281bba08ad22caf9ee41e3fd4e0d3 995 admin extra qubes-pdf-converter_2.0.3-1+deb9u1.dsc
+ 4f8cb2ac688b2e8ac0b845972f0bacd8 5415 admin extra qubes-pdf-converter_2.0.3.orig.tar.gz
+ bc1949ee91534de9ce9dd0b39cb3db03 1884 admin extra qubes-pdf-converter_2.0.3-1+deb9u1.debian.tar.xz
+ 86fc32e2e5d7e5790207119963cd72b0 5510 admin extra qubes-pdf-converter_2.0.3-1+deb9u1_amd64.deb

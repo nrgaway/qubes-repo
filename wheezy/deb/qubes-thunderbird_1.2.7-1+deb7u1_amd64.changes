@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:55:21 +0000
+Source: qubes-thunderbird
+Binary: qubes-thunderbird
+Architecture: source amd64
+Version: 1.2.7-1+deb7u1
+Distribution: wheezy
+Urgency: low
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Changed-By: Jason Mehring <user@dev-qubes>
+Description: 
+ qubes-thunderbird - The Qubes extension for Thunderbird
+Changes: 
+ qubes-thunderbird (1.2.7-1+deb7u1) wheezy; urgency=low
+ .
+   * Build for wheezy
+Checksums-Sha1: 
+ 24f3973fc1db7cab34e06aad4ddad3f635d6ffcc 916 qubes-thunderbird_1.2.7-1+deb7u1.dsc
+ b14ecf4bcfefc8929eb70295cd20485ed6c56993 5464 qubes-thunderbird_1.2.7.orig.tar.gz
+ 2e68154eb0d10d738656ae16c666f4f28712e07d 1810 qubes-thunderbird_1.2.7-1+deb7u1.debian.tar.gz
+ 8db2d086effbedb1d559858cd5661d3c9b059abc 6016 qubes-thunderbird_1.2.7-1+deb7u1_amd64.deb
+Checksums-Sha256: 
+ 18e9f2a73915196b675559e0395decd34d3497e8273f4ccc061839b17da2f13a 916 qubes-thunderbird_1.2.7-1+deb7u1.dsc
+ 35e18cb2b1b0ef08d6ff15e968b56604eb5ecbb7aa0b013d28cad9ad20284588 5464 qubes-thunderbird_1.2.7.orig.tar.gz
+ d4a51cb56cb36a2b5449656b65e89e9ec3a62e50ae65fb56069b8f7e98d94e58 1810 qubes-thunderbird_1.2.7-1+deb7u1.debian.tar.gz
+ aa3f5b76ed061ba84134cfc414752711ba8e9db41de3a01224c6c2625840d300 6016 qubes-thunderbird_1.2.7-1+deb7u1_amd64.deb
+Files: 
+ 57972c28b1255d1b01c2fefbce428b82 916 admin extra qubes-thunderbird_1.2.7-1+deb7u1.dsc
+ 416e526dc534518798b00ca19a3aa7ef 5464 admin extra qubes-thunderbird_1.2.7.orig.tar.gz
+ fbabe9919627deb01e89f973787bf1b2 1810 admin extra qubes-thunderbird_1.2.7-1+deb7u1.debian.tar.gz
+ 62724e24417ae43f03bb85ab5534a01e 6016 admin extra qubes-thunderbird_1.2.7-1+deb7u1_amd64.deb

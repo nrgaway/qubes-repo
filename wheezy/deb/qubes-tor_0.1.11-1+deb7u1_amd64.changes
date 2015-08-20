@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:54:20 +0000
+Source: qubes-tor
+Binary: qubes-tor
+Architecture: source amd64
+Version: 0.1.11-1+deb7u1
+Distribution: wheezy
+Urgency: low
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description: 
+ qubes-tor  - The Qubes package for running a TorVM
+Changes: 
+ qubes-tor (0.1.11-1+deb7u1) wheezy; urgency=low
+ .
+   * Build for wheezy
+Checksums-Sha1: 
+ 72904793b6c5c5c745cd9e101c7d2780f499295a 875 qubes-tor_0.1.11-1+deb7u1.dsc
+ 0c5ecd46cc5356a6939082da2ca012ab309a1d47 30482 qubes-tor_0.1.11.orig.tar.gz
+ ae2334be6eb7c9adc1e3401ab6453dc2afecd6b9 2752 qubes-tor_0.1.11-1+deb7u1.debian.tar.gz
+ 8848eb688692453599880f35ff87293d7c255fcb 30866 qubes-tor_0.1.11-1+deb7u1_amd64.deb
+Checksums-Sha256: 
+ a544d7e9f14b86dac429ee634fc7b15ab143a0f21bee8353abb58c3d68942bcb 875 qubes-tor_0.1.11-1+deb7u1.dsc
+ eb371ff0cbc32f1b2295cd9b1f883fd96c075c1310d26e3c12cd90d6f47d70d9 30482 qubes-tor_0.1.11.orig.tar.gz
+ 48031c5689e1eab85c1ea22557f8fd795fd460885ce87065c6135e3f3106f820 2752 qubes-tor_0.1.11-1+deb7u1.debian.tar.gz
+ 33923f0b9dc3b1743d5de9e79809a4079c8066a233062b1c1d0905823c12cd7a 30866 qubes-tor_0.1.11-1+deb7u1_amd64.deb
+Files: 
+ 0553eadd6434a4e0451b321a81f6025e 875 admin extra qubes-tor_0.1.11-1+deb7u1.dsc
+ a5da02117f0fab1cf81febed7f4c73d2 30482 admin extra qubes-tor_0.1.11.orig.tar.gz
+ 662f899a971d15b8a79a65ee35d9ea31 2752 admin extra qubes-tor_0.1.11-1+deb7u1.debian.tar.gz
+ e32f67010998b563551ca1656b01f7e9 30866 admin extra qubes-tor_0.1.11-1+deb7u1_amd64.deb

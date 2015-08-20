@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:54:11 +0000
+Source: qubes-tor
+Binary: qubes-tor
+Architecture: source amd64
+Version: 0.1.11-1+deb9u1
+Distribution: stretch
+Urgency: medium
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description:
+ qubes-tor  - The Qubes package for running a TorVM
+Changes:
+ qubes-tor (0.1.11-1+deb9u1) stretch; urgency=medium
+ .
+   * Build for stretch
+Checksums-Sha1:
+ a2a3c8dc57830dfdc8361e95097a466d29e225f9 880 qubes-tor_0.1.11-1+deb9u1.dsc
+ 7a919d028c3f59362ddddf2dcf39f196889bf534 30482 qubes-tor_0.1.11.orig.tar.gz
+ f04266bd05df05dae85a9ce4dcdf928ae04f22ca 2696 qubes-tor_0.1.11-1+deb9u1.debian.tar.xz
+ 03219a250afe49bf970c6eaa449370ff38db4b78 29548 qubes-tor_0.1.11-1+deb9u1_amd64.deb
+Checksums-Sha256:
+ faa23b8d4f065c9541150614ef17fa5448b3385ea30105cfb51e735970366f8b 880 qubes-tor_0.1.11-1+deb9u1.dsc
+ 0a736beb53946e57903654e1363862e94f18d786c9c815f097630620d49e9de6 30482 qubes-tor_0.1.11.orig.tar.gz
+ 9091a5c19c5694995832b16144b69108090ae7a49f75c146880c7315ce2b3d4b 2696 qubes-tor_0.1.11-1+deb9u1.debian.tar.xz
+ 11b801c617f9a75f4c0f87e2e853d2c8dc57fa4815c77e5f22bebf2568003938 29548 qubes-tor_0.1.11-1+deb9u1_amd64.deb
+Files:
+ 00e54d957ed7c199ca7c39d1ac4f1edc 880 admin extra qubes-tor_0.1.11-1+deb9u1.dsc
+ 9cc939697588a0f3cafb94112e6e7e02 30482 admin extra qubes-tor_0.1.11.orig.tar.gz
+ 4255947fd3dc0e4ba2ac73ace47bd981 2696 admin extra qubes-tor_0.1.11-1+deb9u1.debian.tar.xz
+ 372edcc2f037713a5e5e3d338f64ccf2 29548 admin extra qubes-tor_0.1.11-1+deb9u1_amd64.deb

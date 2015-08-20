@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:47:30 +0000
+Source: qubes-core-agent
+Binary: qubes-core-agent
+Architecture: source amd64
+Version: 3.0.15-1+deb8u1
+Distribution: jessie
+Urgency: medium
+Maintainer: Davíð Steinn Geirsson <david@dsg.is>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description:
+ qubes-core-agent - Qubes core agent
+Changes:
+ qubes-core-agent (3.0.15-1+deb8u1) jessie; urgency=medium
+ .
+   * Build for jessie
+Checksums-Sha1:
+ 9e7f180887c1daa2e0512d5988877aa66899ca9d 1087 qubes-core-agent_3.0.15-1+deb8u1.dsc
+ cca29fff4235814ca219e5cafee80926c70e78f6 1797085 qubes-core-agent_3.0.15.orig.tar.gz
+ d56739cafa3752b5b019b233f38a7157faa2338e 12508 qubes-core-agent_3.0.15-1+deb8u1.debian.tar.xz
+ 92a8d95e71ad365b1bd09d81c9867eb051965a0d 1777784 qubes-core-agent_3.0.15-1+deb8u1_amd64.deb
+Checksums-Sha256:
+ c1341ffe2447ce58406a8540e61e28939b0dd0967d383fef66bb9c8a90be0d00 1087 qubes-core-agent_3.0.15-1+deb8u1.dsc
+ 84b9b3f3fdb42df8e4863e0a07690dff4f2144d87fb747bfc23745779d194b69 1797085 qubes-core-agent_3.0.15.orig.tar.gz
+ 4624f5c69b21389e13ba06a40b1b7c5e5b44bb1c8c3ca4b35ab356142b6012b1 12508 qubes-core-agent_3.0.15-1+deb8u1.debian.tar.xz
+ 0d9fad9e82def47904476f24ad90941073ae5ae7c0a867ba8a268c24daecc419 1777784 qubes-core-agent_3.0.15-1+deb8u1_amd64.deb
+Files:
+ 98c37ad05980734c0cf52e75047c8d5c 1087 admin extra qubes-core-agent_3.0.15-1+deb8u1.dsc
+ 757a18aedf4e0b733e2a10d6e5579e72 1797085 admin extra qubes-core-agent_3.0.15.orig.tar.gz
+ f22a10ea696c89aebbaae3456eb3f73b 12508 admin extra qubes-core-agent_3.0.15-1+deb8u1.debian.tar.xz
+ 72adc582f8caff3196d270fbd2f1b558 1777784 admin extra qubes-core-agent_3.0.15-1+deb8u1_amd64.deb

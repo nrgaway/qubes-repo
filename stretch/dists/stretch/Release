@@ -1,0 +1,8 @@
+Label: Qubes builder repo
+Suite: stretch
+Codename: stretch
+Date: Wed, 19 Aug 2015 19:56:04 -0400
+Architectures: amd64
+Components: main
+SHA1:
+ 8ea2a176fa29694e20af26f2e5285019f05f679e 12390 main/binary-amd64/Packages

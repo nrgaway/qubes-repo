@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:45:20 +0000
+Source: qubes-utils
+Binary: qubes-utils
+Architecture: source amd64
+Version: 3.0.10+deb7u1
+Distribution: wheezy
+Urgency: low
+Maintainer: Davíð Steinn Geirsson <david@dsg.is>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description: 
+ qubes-utils - Qubes Linux utilities
+Changes: 
+ qubes-utils (3.0.10+deb7u1) wheezy; urgency=low
+ .
+   * Build for wheezy
+Checksums-Sha1: 
+ 313ec874e19b3a34b3b0e4043f92eab296e2233f 705 qubes-utils_3.0.10+deb7u1.dsc
+ c0d04c6123d4f68f85c40cd6e553e37cea3bb6e3 29194 qubes-utils_3.0.10+deb7u1.tar.gz
+ fdcb052e5bc4c809b7ad2f29ffa5c934a61e72dc 30520 qubes-utils_3.0.10+deb7u1_amd64.deb
+Checksums-Sha256: 
+ 328694691337273e9c046a7402a8d813ca1aa70778358a9a8fd5d7e7e924f0de 705 qubes-utils_3.0.10+deb7u1.dsc
+ 50e95b09c70c0da7cd39e6009ce90b30e19a2acf25fcce9af90298385b9b8e37 29194 qubes-utils_3.0.10+deb7u1.tar.gz
+ ba0f086bda40722ac33ea4c5bb5437143613fbab691a6b659585e38954a7e421 30520 qubes-utils_3.0.10+deb7u1_amd64.deb
+Files: 
+ 940f32874a9aef8967d9bb9920f97859 705 admin extra qubes-utils_3.0.10+deb7u1.dsc
+ 4f44fc193436c0ea887c873dd7e6bc7a 29194 admin extra qubes-utils_3.0.10+deb7u1.tar.gz
+ 5d313cf1c67816b28a8fe3ae518d816e 30520 admin extra qubes-utils_3.0.10+deb7u1_amd64.deb

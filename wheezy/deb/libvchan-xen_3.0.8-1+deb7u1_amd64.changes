@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:42:09 +0000
+Source: libvchan-xen
+Binary: libvchan-xen libvchan-xen-dev
+Architecture: source amd64
+Version: 3.0.8-1+deb7u1
+Distribution: wheezy
+Urgency: low
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description: 
+ libvchan-xen - Qubes Xen core libraries
+ libvchan-xen-dev - Developement files for Qubes libvchan communication library.
+Changes: 
+ libvchan-xen (3.0.8-1+deb7u1) wheezy; urgency=low
+ .
+   * Build for wheezy
+Checksums-Sha1: 
+ 18a85270543fa345578e2d6d4d37e2050c77d066 934 libvchan-xen_3.0.8-1+deb7u1.dsc
+ 28bac8e76afe76a458a524ed08a23f66571a7ece 15982 libvchan-xen_3.0.8.orig.tar.gz
+ 26ae89a9ca1b8c42abfeec12e14a412fae6ecc3f 4440 libvchan-xen_3.0.8-1+deb7u1.debian.tar.gz
+ bf7f5a0e293489aba24c5570d38aabd1b371a5ea 9486 libvchan-xen_3.0.8-1+deb7u1_amd64.deb
+ 93179eaf856a6a72c87908d8c423eeffc4c3f3f3 4744 libvchan-xen-dev_3.0.8-1+deb7u1_amd64.deb
+Checksums-Sha256: 
+ f27f2d1df1a61d08505bf0ce59b893fad4ece4feaceda0d5db30b3775702f527 934 libvchan-xen_3.0.8-1+deb7u1.dsc
+ 63619dff3d9b518c5f43fe0ce2e56cc9f25c8f009fe3ef93b87570f984009743 15982 libvchan-xen_3.0.8.orig.tar.gz
+ 67eb522e28efac5d00af16076146a84577b37906796fdf1e3ee918ac973ca79a 4440 libvchan-xen_3.0.8-1+deb7u1.debian.tar.gz
+ ad487f2cda0a30204ae0154800bb5b7141ecb989de6e6e9983aec7c2a0f65f6b 9486 libvchan-xen_3.0.8-1+deb7u1_amd64.deb
+ 0a4c89b08aae7722f3c124c2b5a3907894f22ada09b50b85a9d1793cad19e5c0 4744 libvchan-xen-dev_3.0.8-1+deb7u1_amd64.deb
+Files: 
+ 0fe2a7363c6f4e085a77eb26c78be5e4 934 libs extra libvchan-xen_3.0.8-1+deb7u1.dsc
+ 264e8281345fc5e47f16e82f4ebf95ca 15982 libs extra libvchan-xen_3.0.8.orig.tar.gz
+ aa087f2ae836f62a520d06ebcdb15f69 4440 libs extra libvchan-xen_3.0.8-1+deb7u1.debian.tar.gz
+ ec603f439dc3671b7038fbb5453f8a18 9486 libs extra libvchan-xen_3.0.8-1+deb7u1_amd64.deb
+ ec86f015ad6f3d50cb19c911f43cb082 4744 libdevel extra libvchan-xen-dev_3.0.8-1+deb7u1_amd64.deb

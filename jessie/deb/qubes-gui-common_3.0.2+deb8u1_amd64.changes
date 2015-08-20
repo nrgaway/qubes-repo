@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:48:56 +0000
+Source: qubes-gui-common
+Binary: qubes-gui-common
+Architecture: source amd64
+Version: 3.0.2+deb8u1
+Distribution: jessie
+Urgency: medium
+Maintainer: Davíð Steinn Geirsson <david@dsg.is>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description:
+ qubes-gui-common - Qubes GUI common files
+Changes:
+ qubes-gui-common (3.0.2+deb8u1) jessie; urgency=medium
+ .
+   * Build for jessie
+Checksums-Sha1:
+ c183c4a4b824ae3031d9a136f1065ec3aac79bc5 676 qubes-gui-common_3.0.2+deb8u1.dsc
+ 07d58083161d775d801918415c685059bf73510e 4492 qubes-gui-common_3.0.2+deb8u1.tar.xz
+ e92a5dbba3c3aa8f0bf257a49444b4a1aef5855c 4034 qubes-gui-common_3.0.2+deb8u1_amd64.deb
+Checksums-Sha256:
+ 7ecb4392b29ba5ccf5e993c4475814342d841c6890abddd3bff37444dc4906c7 676 qubes-gui-common_3.0.2+deb8u1.dsc
+ 5be0746fec91731cbd94b713b8441f8a2ca5dff40f484b84377b49aa03cb3635 4492 qubes-gui-common_3.0.2+deb8u1.tar.xz
+ 984223422d6fd8e639d2ff91ffff699ba2754a5a20b4bf2b1aada358954b1db6 4034 qubes-gui-common_3.0.2+deb8u1_amd64.deb
+Files:
+ ec8fe702566433fd32eaa7309069589b 676 admin extra qubes-gui-common_3.0.2+deb8u1.dsc
+ b7120f639c480778182a08d39d25ec00 4492 admin extra qubes-gui-common_3.0.2+deb8u1.tar.xz
+ 57894cf5edd80f7fc3f0175680369f63 4034 admin extra qubes-gui-common_3.0.2+deb8u1_amd64.deb

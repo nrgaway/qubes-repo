@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 19 Aug 2015 23:49:11 +0000
+Source: qubes-gui-common
+Binary: qubes-gui-common
+Architecture: source amd64
+Version: 3.0.2+deb7u1
+Distribution: wheezy
+Urgency: low
+Maintainer: Davíð Steinn Geirsson <david@dsg.is>
+Changed-By: Marek Marczykowski-Górecki <user@dev-qubes>
+Description: 
+ qubes-gui-common - Qubes GUI common files
+Changes: 
+ qubes-gui-common (3.0.2+deb7u1) wheezy; urgency=low
+ .
+   * Build for wheezy
+Checksums-Sha1: 
+ c91f1a6c690a59eac0ade05799ccb5528553c91d 671 qubes-gui-common_3.0.2+deb7u1.dsc
+ acbe7d1b696936dab68477c5d5d5f8f2f947e62d 4744 qubes-gui-common_3.0.2+deb7u1.tar.gz
+ bb908ccb6e061e83b35b81a026c0025f77072e2c 4194 qubes-gui-common_3.0.2+deb7u1_amd64.deb
+Checksums-Sha256: 
+ 5deabcefa80f71c81230848ab373c2e5e5e13c9918a1015c65228fff31f9dd39 671 qubes-gui-common_3.0.2+deb7u1.dsc
+ 0e43e8c9aa60c121f2a184c58c293145651cc13892b3e1745ce5f17ba2080bb1 4744 qubes-gui-common_3.0.2+deb7u1.tar.gz
+ e55ef209d41d08f0308ab2e720e5f985dbee0160914eaf40b7ea59f94fdc7d26 4194 qubes-gui-common_3.0.2+deb7u1_amd64.deb
+Files: 
+ 3bd558a8bb917e0000936f3ee5428eae 671 admin extra qubes-gui-common_3.0.2+deb7u1.dsc
+ 314650221730ed99b44d89c605d76e14 4744 admin extra qubes-gui-common_3.0.2+deb7u1.tar.gz
+ c134dcda429b6770db86cb6a000ea3e8 4194 admin extra qubes-gui-common_3.0.2+deb7u1_amd64.deb

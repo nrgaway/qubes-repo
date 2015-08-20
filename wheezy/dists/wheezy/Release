@@ -1,0 +1,8 @@
+Label: Qubes builder repo
+Suite: wheezy
+Codename: wheezy
+Date: Wed, 19 Aug 2015 19:56:10 -0400
+Architectures: amd64
+Components: main
+SHA1:
+ 6afc415cb2ed085bd0396c5782f2ef2883c8cae9 12402 main/binary-amd64/Packages

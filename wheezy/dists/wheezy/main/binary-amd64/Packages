@@ -1,0 +1,334 @@
+Package: libqubesdb
+Source: qubesdb
+Version: 3.0.5-1+deb7u1
+Architecture: amd64
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Installed-Size: 89
+Depends: python (<< 2.8), python (>= 2.7~), python2.7, libc6 (>= 2.4)
+Filename: ./deb/libqubesdb_3.0.5-1+deb7u1_amd64.deb
+Size: 13492
+MD5sum: 193ff06ae672c08f16cd471300e62b05
+SHA1: c4a28edb9f65973da158e38fd1e605074ed8267a
+SHA256: dc47f903e0718bf20a5df797d3b101243027d9bfb0f2b2d40fba6ba6d6877847
+Section: libs
+Priority: extra
+Homepage: http://www.qubes-os.org
+Description: QubesDB libs.
+
+Package: libvchan-xen
+Version: 3.0.8-1+deb7u1
+Architecture: amd64
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Installed-Size: 49
+Depends: libxenstore3.0, libxen-4.4, libc6 (>= 2.3.4)
+Conflicts: qubes-core-vchan-xen
+Filename: ./deb/libvchan-xen_3.0.8-1+deb7u1_amd64.deb
+Size: 9486
+MD5sum: ec603f439dc3671b7038fbb5453f8a18
+SHA1: bf7f5a0e293489aba24c5570d38aabd1b371a5ea
+SHA256: ad487f2cda0a30204ae0154800bb5b7141ecb989de6e6e9983aec7c2a0f65f6b
+Section: libs
+Priority: extra
+Homepage: http://www.qubes-os.org
+Description: Qubes Xen core libraries
+ This package includes the libraries required for the higher-level Qubes
+ daemons and tools.
+
+Package: libvchan-xen-dev
+Source: libvchan-xen
+Version: 3.0.8-1+deb7u1
+Architecture: amd64
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Installed-Size: 48
+Depends: libvchan-xen (= 3.0.8-1+deb7u1), libxen-dev
+Conflicts: qubes-core-vchan-xen
+Filename: ./deb/libvchan-xen-dev_3.0.8-1+deb7u1_amd64.deb
+Size: 4744
+MD5sum: ec86f015ad6f3d50cb19c911f43cb082
+SHA1: 93179eaf856a6a72c87908d8c423eeffc4c3f3f3
+SHA256: 0a4c89b08aae7722f3c124c2b5a3907894f22ada09b50b85a9d1793cad19e5c0
+Section: libdevel
+Priority: extra
+Homepage: http://www.qubes-os.org
+Description: Developement files for Qubes libvchan communication library.
+
+Package: libxen-4.4
+Source: xen
+Version: 2001:4.4.2-6+deb7u1
+Architecture: amd64
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Installed-Size: 391
+Depends: libc6 (>= 2.4), liblzma5 (>= 5.1.1alpha+20120614), libxenstore3.0 (>= 3.2.0), zlib1g (>= 1:1.1.4)
+Filename: ./deb/libxen-4.4_4.4.2-6+deb7u1_amd64.deb
+Size: 139500
+MD5sum: a7ff48af19f3fc686127221b91044e3f
+SHA1: 1b075a92b93faf8520fa38533e4f22bc675b9df9
+SHA256: 39aee79f4034835ffed059a14411b1d28c347780be4030e6052297d7c7019b28
+Section: libs
+Priority: optional
+Homepage: http://www.qubes-os.org
+Description: Libraries for Xen tools
+ This package contains the libraries needed to run Xen tools inside of Qubes VM
+
+Package: libxen-dev
+Source: xen
+Version: 2001:4.4.2-6+deb7u1
+Architecture: amd64
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Installed-Size: 1310
+Depends: libxen-4.4 (= 2001:4.4.2-6+deb7u1), libxenstore3.0 (= 2001:4.4.2-6+deb7u1)
+Filename: ./deb/libxen-dev_4.4.2-6+deb7u1_amd64.deb
+Size: 320260
+MD5sum: 58b9f8f7616f91d9ea9692fe75ba7e97
+SHA1: 472d0d28626fa419b9db3ec2c2f54ea0aa5b8ed4
+SHA256: f156163bed5336c59e0c4f77562d2938f87e5ecd2df0434520831c88c43edc8f
+Section: libdevel
+Priority: optional
+Homepage: http://www.qubes-os.org
+Description: Development libraries for Xen tools
+ This package contains what's needed to develop applications
+ which manage Xen virtual machines.
+
+Package: libxenstore3.0
+Source: xen
+Version: 2001:4.4.2-6+deb7u1
+Architecture: amd64
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Installed-Size: 72
+Depends: libc6 (>= 2.7)
+Filename: ./deb/libxenstore3.0_4.4.2-6+deb7u1_amd64.deb
+Size: 19888
+MD5sum: b6fdae7b6147ea25363cd7129f934ec1
+SHA1: 13919eb9e73173233808405010965fc79f0d0fb7
+SHA256: 6f0fac46622978fe55d6a800fdb2bbd6096702ca82ad3c071c98e4af1b780792
+Section: libs
+Priority: optional
+Homepage: http://www.qubes-os.org
+Description: Xenstore communications library for Xen
+ This package contains the client library interface to XenStore.
+
+Package: qubes-core-agent
+Version: 3.0.15-1+deb7u1
+Architecture: amd64
+Maintainer: Davíð Steinn Geirsson <david@dsg.is>
+Installed-Size: 2217
+Depends: dmsetup, ethtool, fakeroot, imagemagick, init-system-helpers (>= 1.18~), initscripts, iptables, iptables-persistent, libvchan-xen, locales, ncurses-term, net-tools, psmisc, python2.7, python-gi, python-xdg, qubes-utils (>= 3.0.1), sudo, systemd, x11-xserver-utils, xdg-user-dirs, xen-utils-common, xenstore-utils, xinit, xserver-xorg-core, xserver-xorg-video-dummy, libc6 (>= 2.8), libx11-6, libxen-4.4, libxenstore3.0 (>= 3.2.0), dconf-gsettings-backend | gsettings-backend
+Recommends: cups, gnome-packagekit, gnome-terminal, gnome-themes-standard, haveged, libnotify-bin, mate-notification-daemon, network-manager (>= 0.8.1-1), network-manager-gnome, ntpdate, python-nautilus, system-config-printer, tinyproxy, xsettingsd, yum, yum-utils
+Conflicts: firewalld, qubes-core-agent-linux, qubes-core-vm-sysvinit
+Filename: ./deb/qubes-core-agent_3.0.15-1+deb7u1_amd64.deb
+Size: 1804568
+MD5sum: 074d6b4ebe7f9f00b49955eb153560ad
+SHA1: 02ac788c5ec6bcbd0a4a46f9299f173e96d58287
+SHA256: 5ac278e50b46d99cc373b15bc29685514259948285dbbccf4a5c05e32b214461
+Section: admin
+Priority: extra
+Homepage: http://www.qubes-os.org
+Description: Qubes core agent
+ This package includes various daemons necessary for qubes domU support,
+ such as qrexec.
+
+Package: qubes-gpg-split
+Version: 2.0.11-1+deb7u1
+Architecture: amd64
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Installed-Size: 127
+Depends: gpgv
+Filename: ./deb/qubes-gpg-split_2.0.11-1+deb7u1_amd64.deb
+Size: 20408
+MD5sum: 935c6204db26c9fa4d551ffa2db3b448
+SHA1: 2d7c5dcaea6806d17e765472c0842872e40704e4
+SHA256: e0c4a0fdd7a054a9d7cbb672b273d94d91809c1006300ab4a59872cececb915c
+Section: admin
+Priority: extra
+Homepage: http://www.qubes-os.org
+Description: The Qubes service for secure gpg separation
+
+Package: qubes-gui-agent
+Version: 3.0.10+deb7u1
+Architecture: amd64
+Maintainer: Davíð Steinn Geirsson <david@dsg.is>
+Installed-Size: 259
+Depends: gnome-keyring, pulseaudio, xserver-xorg-core, xinit, x11-xserver-utils, xenstore-utils, qubes-core-agent (>= 3.0.14), libpulse0, libxdamage1 (>= 1:1.1), libxcomposite1 (>= 1:0.3-1), libxt6, libx11-6, libc6 (>= 2.4), libxen-4.4, dconf-gsettings-backend | gsettings-backend, init-system-helpers (>= 1.18~)
+Recommends: qt4-qtconfig
+Provides: x-display-manager
+Filename: ./deb/qubes-gui-agent_3.0.10+deb7u1_amd64.deb
+Size: 56694
+MD5sum: f25efeea4dd8c53bdd3d88a422b5a9d0
+SHA1: 5c6c073b3ad207f5a77f45a70e49bc483411efaa
+SHA256: 7727ff4f41d4008f41526ac90a86a590fbb2c5cbff76642c5f52f18d5fa26c71
+Section: admin
+Priority: extra
+Homepage: http://www.qubes-os.org/
+Description: Makes X11 windows available to qubes dom0
+ The Qubes GUI agent allows the forwarding of running app windows to the
+ qubes dom0. It also includes various extras such as copy/paste support.
+
+Package: qubes-gui-common
+Version: 3.0.2+deb7u1
+Architecture: amd64
+Maintainer: Davíð Steinn Geirsson <david@dsg.is>
+Installed-Size: 37
+Filename: ./deb/qubes-gui-common_3.0.2+deb7u1_amd64.deb
+Size: 4194
+MD5sum: c134dcda429b6770db86cb6a000ea3e8
+SHA1: bb908ccb6e061e83b35b81a026c0025f77072e2c
+SHA256: e55ef209d41d08f0308ab2e720e5f985dbee0160914eaf40b7ea59f94fdc7d26
+Section: admin
+Priority: extra
+Homepage: <http://www.qubes-os.org/>
+Description: Qubes GUI common files
+ This package contains common files used by Qubes GUI software.
+
+Package: qubes-thunderbird
+Version: 1.2.7-1+deb7u1
+Architecture: amd64
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Installed-Size: 85
+Depends: icedove
+Filename: ./deb/qubes-thunderbird_1.2.7-1+deb7u1_amd64.deb
+Size: 6016
+MD5sum: 62724e24417ae43f03bb85ab5534a01e
+SHA1: 8db2d086effbedb1d559858cd5661d3c9b059abc
+SHA256: aa3f5b76ed061ba84134cfc414752711ba8e9db41de3a01224c6c2625840d300
+Section: admin
+Priority: extra
+Homepage: http://www.qubes-os.org
+Description: The Qubes extension for Thunderbird
+
+Package: qubes-tor
+Version: 0.1.11-1+deb7u1
+Architecture: amd64
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Installed-Size: 112
+Depends: systemd, tor (>= 0.2.3), init-system-helpers (>= 1.18~)
+Filename: ./deb/qubes-tor_0.1.11-1+deb7u1_amd64.deb
+Size: 30866
+MD5sum: e32f67010998b563551ca1656b01f7e9
+SHA1: 8848eb688692453599880f35ff87293d7c255fcb
+SHA256: 33923f0b9dc3b1743d5de9e79809a4079c8066a233062b1c1d0905823c12cd7a
+Section: admin
+Priority: extra
+Homepage: http://www.qubes-os.org
+Description: The Qubes package for running a TorVM
+
+Package: qubes-utils
+Version: 3.0.10+deb7u1
+Architecture: amd64
+Maintainer: Davíð Steinn Geirsson <david@dsg.is>
+Installed-Size: 150
+Depends: qubesdb-vm, libvchan-xen, lsb-base, libc6 (>= 2.7), libxenstore3.0 (>= 3.2.0), init-system-helpers (>= 1.18~)
+Recommends: python2.7
+Conflicts: qubes-linux-utils
+Filename: ./deb/qubes-utils_3.0.10+deb7u1_amd64.deb
+Size: 30520
+MD5sum: 5d313cf1c67816b28a8fe3ae518d816e
+SHA1: fdcb052e5bc4c809b7ad2f29ffa5c934a61e72dc
+SHA256: ba0f086bda40722ac33ea4c5bb5437143613fbab691a6b659585e38954a7e421
+Section: admin
+Priority: extra
+Homepage: http://www.qubes-os.org
+Description: Qubes Linux utilities
+ This package includes the basic qubes utilities necessary for domU.
+
+Package: qubesdb
+Version: 3.0.5-1+deb7u1
+Architecture: amd64
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Installed-Size: 77
+Depends: libqubesdb, libvchan-xen, libc6 (>= 2.4), libsystemd-daemon0 (>= 31), libxen-4.4
+Filename: ./deb/qubesdb_3.0.5-1+deb7u1_amd64.deb
+Size: 19580
+MD5sum: ef871308faf3fa9c7c0e88064184dd26
+SHA1: b483355f1d84a0f71ca1dda4eebf38bf95669a33
+SHA256: bc5a92060eb4486743ff18bee98bc665e550c23a74ebc48ad4ecaee87784ebd6
+Section: admin
+Priority: extra
+Homepage: http://www.qubes-os.org
+Description: QubesDB management tools and daemon.
+
+Package: qubesdb-dev
+Source: qubesdb
+Version: 3.0.5-1+deb7u1
+Architecture: amd64
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Installed-Size: 41
+Depends: libqubesdb (= 3.0.5-1+deb7u1)
+Filename: ./deb/qubesdb-dev_3.0.5-1+deb7u1_amd64.deb
+Size: 6714
+MD5sum: 53f716efe99686bbeb06f96eb8085f9f
+SHA1: d5d892f2889cb3b160d801e222d9146e2393f77e
+SHA256: 0e6c7fc3daa1dd8c97f4ccf0ff243f210c49cb92040be9c72d299f8bd8aeacb1
+Section: libdevel
+Priority: extra
+Homepage: http://www.qubes-os.org
+Description: QubesDB client header files.
+
+Package: qubesdb-vm
+Source: qubesdb
+Version: 3.0.5-1+deb7u1
+Architecture: amd64
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Installed-Size: 42
+Depends: qubesdb, init-system-helpers (>= 1.18~)
+Filename: ./deb/qubesdb-vm_3.0.5-1+deb7u1_amd64.deb
+Size: 4330
+MD5sum: c802a22629d505d074f184344bf56005
+SHA1: 65e317ed9cd530119858c1c18766ff2805af79bd
+SHA256: ee752b185634e44b38e860ee01fa036f2ca63151b26dc7b7526aaeb539057de0
+Section: admin
+Priority: extra
+Homepage: http://www.qubes-os.org
+Description: QubesDB VM service.
+
+Package: xen-utils-common
+Source: xen
+Version: 2001:4.4.2-6+deb7u1
+Architecture: all
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Installed-Size: 2325
+Depends: lsb-base, python, udev, xenstore-utils
+Filename: ./deb/xen-utils-common_4.4.2-6+deb7u1_all.deb
+Size: 509476
+MD5sum: 88bec0db72bf9523f6cf0f31deadc84b
+SHA1: f68623f0c411bfbd0a684cfabcde3812ac604b79
+SHA256: 7ba0fce085872374dc6f22c9d6fdc83242ff482ec694a51d17ceccd0c5aaccfe
+Section: kernel
+Priority: optional
+Homepage: http://www.qubes-os.org
+Description: Xen administrative tools - common files
+ The userspace tools to manage a system virtualized through the Xen virtual
+ machine monitor.
+ .
+ This package is only required on the host system (Domain 0) and not on the
+ virtual guest systems (Domain U).
+
+Package: xenstore-utils
+Source: xen
+Version: 2001:4.4.2-6+deb7u1
+Architecture: amd64
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Installed-Size: 196
+Depends: libc6 (>= 2.4), libxenstore3.0 (>= 4.1.0~rc6)
+Conflicts: xen-utils-common (<= 3.1.0-1)
+Replaces: xen-utils-common (<= 3.1.0-1)
+Filename: ./deb/xenstore-utils_4.4.2-6+deb7u1_amd64.deb
+Size: 17994
+MD5sum: faaaa4f51c2e119a1394a667b279a74c
+SHA1: c4b9b06ab9535c8f816d43e7ec1b38e9fc0d5c63
+SHA256: b04c071076233d54593723d28845565272449dc0b21beede0e180ac952c55097
+Section: admin
+Priority: optional
+Homepage: http://www.qubes-os.org
+Description: Xenstore command line utilities for Xen
+ This package contains command line utilities for interacting with
+ XenStore.
+ .
+ XenStore is a shared database used for interdomain communication of
+ configuration and status information.  It is accessible to all domains
+ running on the same Xen host.  See http://wiki.xen.org/wiki/XenStore for
+ more information.
+ .
+ In the common case these tools are used by the Xen toolstack running in
+ domain0 (or a driver domain) however they may also be used in a guest
+ domain to support local scripting which wants to communicate via XenStore.
+
